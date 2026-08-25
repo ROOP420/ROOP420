@@ -29,15 +29,6 @@ I build production systems around **APIs, background workers, authentication, bi
 - Linux deployments using **Nginx, PM2, GitHub Actions, staging environments, and VPS infrastructure**
 - Failure handling, idempotency, retry safety, observability, and operational debugging
 
-## Current engineering focus
-
-```text
-01. Strengthening backend fundamentals without hiding behind AI-generated code
-02. Building advanced public backend systems that are easy to run, test, and explain
-03. Contributing production-quality fixes and features to real open-source repositories
-04. Documenting architecture decisions, failure modes, and scaling trade-offs
-```
-
 ## Core stack
 
 <div align="center">
@@ -74,19 +65,6 @@ My work includes:
 - Production and staging deployment infrastructure
 
 > The company source code is private. Public repositories on this profile will contain independent implementations, engineering case studies, and reusable backend systems without exposing customer data or company secrets.
-
-## Public build roadmap
-
-| Order | Repository | Engineering focus |
-|---:|---|---|
-| 1 | **Reliable Job Processing System** | BullMQ internals, retries, idempotency, locks, DLQ, observability |
-| 2 | **Transactional Wallet & Ledger** | PostgreSQL transactions, double-entry accounting, concurrency |
-| 3 | **Real-Time Event Ingestion Platform** | WebSockets, Redis state, streaming persistence, backpressure |
-| 4 | **API Gateway & Usage Metering** | rate limiting, quotas, Redis Lua, circuit breakers, audit logs |
-
-Every project will include architecture documentation, local infrastructure, tests, load testing, failure simulations, and a deployed demo.
-
----
 
 <div align="center">
 
